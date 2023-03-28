@@ -1,0 +1,19 @@
+
+#signin>form>input{
+width: 300px;
+display: block;
+margin: auto;
+padding: 10px;
+margin-bottom: 10px;
+
+}
+h1 {
+ margin-top: 100px;
+text-align: center;
+font-family:sans-serif;
+}
+#signin>form input:nth-child(3){
+background-color: black;
+color: white;
+}
+

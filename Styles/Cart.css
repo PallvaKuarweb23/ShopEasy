@@ -1,0 +1,60 @@
+
+.heading {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#divider {
+    display: grid;
+    grid-template-columns: 3fr 1fr
+}
+#Container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+    
+    
+}
+
+img {
+    width: 100%;
+}
+
+#payment {
+    /* border: 2px solid red; */
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+#payment button{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 28px;
+    margin-top:10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+   
+}
+#btn{
+    background-color: white;
+    color: black;
+    border: solid 0.2px black;
+}
+#inc {
+    background-color: white;
+    color: black;
+    border: solid 0.2px black;
+
+}
+ 

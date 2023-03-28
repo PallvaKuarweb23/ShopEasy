@@ -1,0 +1,20 @@
+
+        #Credit>input{
+            display: block;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        h3 {
+            margin-left: 10px;
+        }
+        button {
+            margin-left: 10px;
+            margin-top: 10px;
+            width:175px;
+            background-color: black;
+            color: white;
+        }
+       #thank {
+            color: teal;
+            font-family:'Times New Roman', Times, serif
+        }
