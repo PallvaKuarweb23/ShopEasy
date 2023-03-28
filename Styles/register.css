@@ -1,0 +1,21 @@
+
+      /* Write all necessery css here  */
+      #signup >form>input {
+        width: 400px;
+        display: block;
+        margin: auto;
+        padding: 10px;
+        margin-bottom: 10px;
+      
+        /* border:1px solid black; */
+      }
+      h1 {
+        margin-top: 100px;
+        text-align: center;
+        font-family:sans-serif;
+      }
+      #signup>form input:nth-child(5){
+        background-color: black;
+        color: white;
+      }
+  

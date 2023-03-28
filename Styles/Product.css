@@ -1,0 +1,44 @@
+
+#ProductContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+   
+}
+
+
+img{
+  
+    width: 100%;
+}
+#cart {
+    margin-right: 30px;
+    background-color:black;
+    color: white;
+}
+
+#tag {
+    background-color:white;
+    color: black;
+}
+#filterby input {
+     display: block;
+}
+@media only screen and (min-width:500px) and (max-width:900px){
+    #ProductContainer{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+}
+@media only screen and (max-width:500px){
+    #ProductContainer{
+        grid-template-columns:repeat(1,1fr) ;
+    }
+}
+#filter-btn{
+    background-color: black;
+    color: white;
+    width: 60px;
+}
+
