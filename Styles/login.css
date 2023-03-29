@@ -1,19 +1,104 @@
-
-#signin>form>input{
-width: 300px;
-display: block;
-margin: auto;
-padding: 10px;
-margin-bottom: 10px;
-
-}
 h1 {
- margin-top: 100px;
-text-align: center;
-font-family:sans-serif;
+  margin-top: 70px;
+  text-align: center;
+  font-family: sans-serif;
 }
-#signin>form input:nth-child(3){
-background-color: black;
-color: white;
+.redirectY {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: center;
+  width: 400px;
+  font-size: large;
+
+  margin: auto;
+
+  margin-bottom: 20px;
+
+  font-family: sans-serif;
+}
+.redirectY a {
+  color: black;
+  margin-top: 18px;
+}
+#ptagY {
+  text-align: left;
+  margin-left: 2%;
+}
+.parentY {
+  /* border: 1px solid red; */
+
+  display: flex;
+  width: 60%;
+  margin-left: 25%;
+  gap: 40px;
+}
+.parentY > div {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+/* .parentY > div {
+  border: 1px solid black;
+} */
+
+.newY {
+  font-family: sans-serif;
+}
+.newY button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-right: 60%;
+  border-radius: 5px;
+}
+form {
+  text-align: center;
+}
+form > input {
+  width: 90%;
+  margin: auto;
+  font-size: 15px;
+  padding: 8px;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
+#submitY {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 8px;
+  width: 90%;
+  text-align: center;
+
+  cursor: pointer;
+}
+.buttonsY > button {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 10px;
+  color: black;
+
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#facebookY {
+  padding: 2% 27%;
+  cursor: pointer;
+  background-color: #3b5998;
+  color: white;
+  text-align: center;
+  margin-left: 4%;
+}
+
+#googleY {
+  padding: 2% 29%;
+  margin-left: 4%;
+  background-color: #ef534e;
+  cursor: pointer;
+  color: white;
+}
