@@ -1,21 +1,90 @@
+/* Write all necessery css here  */
+#signup > form > input {
+  /* width: 400px; */
+  width: 26%;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
 
-      /* Write all necessery css here  */
-      #signup >form>input {
-        width: 400px;
-        display: block;
-        margin: auto;
-        padding: 10px;
-        margin-bottom: 10px;
-      
-        /* border:1px solid black; */
-      }
-      h1 {
-        margin-top: 100px;
-        text-align: center;
-        font-family:sans-serif;
-      }
-      #signup>form input:nth-child(5){
-        background-color: black;
-        color: white;
-      }
-  
+  /* border:1px solid black; */
+}
+#signup > form > p {
+  margin-left: 36%;
+  /* font-family: sans-serif;
+  font-size: small; */
+  margin-right: 36%;
+}
+h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-family: sans-serif;
+}
+#signup > form input:nth-child(6) {
+  background-color: black;
+  padding: 13px;
+  width: 27.5%;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.redirectY {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: center;
+  width: 400px;
+  font-size: large;
+  /* margin-left: 37.5%; */
+  margin: auto;
+  margin-bottom: 20px;
+
+  font-family: sans-serif;
+}
+.redirectY a {
+  color: black;
+  margin-top: 18px;
+}
+h2 {
+  margin-left: 36%;
+}
+.buttonsY > button {
+  display: flex;
+  flex-direction: column;
+  margin-left: 36%;
+  margin-top: 10px;
+  color: black;
+  margin-right: 36%;
+  border-radius: 5px;
+}
+
+#loginY {
+  margin-left: 36%;
+  padding: 0.6% 12.5%;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 36%;
+}
+#loginY:hover {
+  background-color: black;
+  color: white;
+}
+#facebookY {
+  margin-left: 36%;
+  padding: 0.6% 9.5%;
+  cursor: pointer;
+  background-color: #3b5998;
+  color: white;
+  margin-right: 36%;
+}
+
+#googleY {
+  margin-left: 36%;
+  padding: 0.6% 10%;
+  margin-bottom: 50px;
+  background-color: #ef534e;
+  cursor: pointer;
+  color: white;
+  margin-right: 36%;
+}
