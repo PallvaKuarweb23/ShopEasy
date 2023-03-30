@@ -48,8 +48,12 @@ h1 {
   background-color: black;
   color: white;
   padding: 10px;
-  margin-right: 60%;
+  width: 60%;
   border-radius: 5px;
+  font-size: 15px;
+}
+.newY button:hover {
+  font-size: 18px;
 }
 form {
   text-align: center;
@@ -67,38 +71,55 @@ form > input {
   background-color: black;
   color: white;
   border-radius: 5px;
-  font-size: 15px;
-  padding: 8px;
-  width: 90%;
-  text-align: center;
-
-  cursor: pointer;
-}
-.buttonsY > button {
-  display: flex;
-  flex-direction: column;
 
   margin-top: 10px;
-  color: black;
+  font-size: 15px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px;
+}
+#submitY:hover {
+  font-size: 18px;
+}
 
+.buttonsY > button {
+  margin-top: 10px;
+  color: black;
+  width: 100%;
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
 }
 
-#facebookY {
-  padding: 2% 27%;
-  cursor: pointer;
+.buttonsY > button:nth-child(1) {
   background-color: #3b5998;
+  margin-bottom: 10px;
   color: white;
   text-align: center;
-  margin-left: 4%;
+  padding: 12px;
+  font-size: 15px;
 }
 
-#googleY {
-  padding: 2% 29%;
-  margin-left: 4%;
+.buttonsY > button:nth-child(2) {
+  padding: 12px;
+  margin-bottom: 50px;
   background-color: #ef534e;
-  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
   color: white;
+}
+
+@media (max-width: 400px) {
+  .parentY {
+    flex-direction: column;
+    margin-left: 40%;
+  }
+}
+@media (max-width: 900px) {
+  .parentY {
+    flex-direction: column;
+    margin-left: 40%;
+  }
 }
