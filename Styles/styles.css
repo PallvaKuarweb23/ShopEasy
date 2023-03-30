@@ -71,12 +71,12 @@ body {
     /* .banner{
         margin-left: 10%;
     } */
-    .banner img {
+    /* .banner img {
     width: 100%;
     height: 300px;
     margin: auto;
     margin-top: 10px;
-    }
+    } */
     .women {
         margin-left: 10px;
     }
@@ -159,7 +159,7 @@ body {
         overflow: hidden;
     }
     
-    .dropdown .dropbtn {
+    /* .dropdown .dropbtn {
         font-size: 16px;
         border: none;
         outline: none;
@@ -169,24 +169,14 @@ body {
         font: inherit;
         font-size: 20px;
         margin: 0;
-        /* border: 2px solid red; */
-    }
+        border: 2px solid red;
+    } */
     
     .underScore:hover {
         text-decoration: underline;
         
     }
-    #slideshow{
-        /* margin-top: 20px;
-        margin-bottom: 20px; */
-        width: 95%;
-        margin: auto;
-        height:300px ;
-        /* border: 2px solid red; */
-      }
-      #slideshow img{ 
-        width: 100%;
-      }
+  
     .dropdown-content {
         display: none;
         position: absolute;
@@ -221,15 +211,41 @@ body {
         color: black;
         padding: 16px;
         text-decoration: none;
+        font-family: sans-serif;
         display: block;
+        font-size: 14px;
         text-align: left;
+        color: rgba(159, 159, 159, 0.942);
         /* border: 2px solid red; */
+    }
+    .column a:hover{
+        color: black;
+    }
+
+    .column h3 {
+        /* border: 2px solid red; */
+        margin-left: 31px;
+        font-family: sans-serif;
+        font-size: 15px;
+
     }
     
     .column a:hover {
         background-color: #ddd;
     }
 
+    /* SLIDE SHOW */
+    #slideshow{
+        /* margin-top: 20px;
+        margin-bottom: 20px; */
+        width: 95%;
+        margin: auto;
+        height:300px ;
+        /* border: 2px solid red; */
+      }
+      #slideshow img{ 
+        width: 100%;
+      }
 
     @media only screen and (max-width:1160px){
         .nav{

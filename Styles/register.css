@@ -61,9 +61,11 @@ h2 {
   border-radius: 5px;
 }
 
+
 .buttonsY > button {
   width: 100%;
   border-radius: 5px;
+
   cursor: pointer;
   text-align: center;
   font-size: 15px;
