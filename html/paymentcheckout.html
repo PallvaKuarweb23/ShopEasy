@@ -196,42 +196,62 @@
     <!-- Payment Method -->
     <h2>Payment Method</h2>
     <!-- ======================== Krishna(changes starts from here) ================================= -->
+    <div id="middleSecK">
+            <div id="paymentMethods">
+                <div id="byDebitCard">
+                    <h4> Use Debit Card</h4>
+                        <button id="debit">  
+                            <img class="debitImg" src="https://bfsi.eletsonline.com/wp-content/uploads/2019/12/Banks-issued-63-percent-higher-debit-cards-in-2019-than-in-2015-RBI-Data.jpg" alt="">
+                        </button>
+                </div>
+                <div id="byCreditCard">
+                    <h4> Use Credit Card</h4>
+                        <button id="credit">  
+                            <img class="creditImg" src="https://cdn.pixabay.com/photo/2016/05/03/12/19/credit-card-1369111__340.png" alt="">
+                        </button>
+                </div>
+                <div id="byUpi">
+                    <h4> Use UPI</h4>
+                        <button id="upi">  
+                            <img class="upiImg" src="https://pwpblog.wpengine.com/wp-content/uploads/2022/08/UPI-ID.png" alt="">
+                        </button>
+                </div>
+            </div>
+            <div >
+                <div id="PaymentDetails">
+                    <input type="text" placeholder="Enter Your Shipping Address" id="address" required>
+                    <input type="text" placeholder="Your City" id="city" required>
+                    <input type="text" placeholder="Your State" id="state" required>
+                    <input type="text" placeholder="Country" id="country" required>
+                    <input type="number" placeholder="Enter Card Number" name="" id="number" required >
+                    <input type="text" placeholder="Name of Card Holder" id="name" required>
+                    <label for="expiryDate">Enter expiry date of your card below</label>
+                     <input type="month" id="expiryDate" name="expiryDate" required>
+                    <input type="password" placeholder="CVV" id="cvv" required>
+                    <button id="generate">Generate OTP</button>
+                    <input type="number" placeholder="OTP" id="otp" >
+                    <button id="SubmitOtp">Submit OTP</button>
 
-    <div id="paymentMethods">
-        <div id="byDebitCard">
-            <h4> Use Debit Card</h4>
-                <button id="debit">  
-                    <img class="debitImg" src="https://bfsi.eletsonline.com/wp-content/uploads/2019/12/Banks-issued-63-percent-higher-debit-cards-in-2019-than-in-2015-RBI-Data.jpg" alt="">
-                </button>
-        </div>
-        <div id="byCreditCard">
-            <h4> Use Credit Card</h4>
-                <button id="credit">  
-                    <img class="creditImg" src="https://cdn.pixabay.com/photo/2016/05/03/12/19/credit-card-1369111__340.png" alt="">
-                </button>
-        </div>
-        <div id="byUpi">
-            <h4> Use UPI</h4>
-                <button id="upi">  
-                    <img class="upiImg" src="https://pwpblog.wpengine.com/wp-content/uploads/2022/08/UPI-ID.png" alt="">
-                </button>
-        </div>
+                </div>
+                    <div id="payByUpi">
+                        <input type="text" placeholder="Enter Your Shipping Address" id="address2" required>
+                        <input type="text" placeholder="Your City" id="city2" required>
+                        <input type="text" placeholder="Your State" id="state2" required>
+                        <input type="text" placeholder="Country" id="country2" required>
+                        <label for="upiId">Enter your UPI ID below </label>
+                        <input type="text" id="upiId" required>
+                        <button id="verifyUpi">Verify</button>
+                        
+                    </div>
+            </div>
     </div>
 
 
 
 
 
-
     <h1 id="thank"></h1>
- <div id="Credit">
-    <input type="number" placeholder="Enter Card Number" name="" id="number">
-    <input type="text" placeholder="Name of Card Holder" id="name">
-    <input type="password" placeholder="CVV" id="cvv">
-    <button id="generate">Generate OTP</button>
-    <input type="number" placeholder="OTP" id="otp" >
-    <button id="SubmitOtp">Submit Otp</button>
-</div>
+
 
 <!-- Footer -->
 <footer class="footer">
