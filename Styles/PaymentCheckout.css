@@ -1,20 +1,88 @@
 
         #Credit>input{
+            width: 80%;
             display: block;
+            margin: auto;
             margin-left: 10px;
-            margin-top: 10px;
+            margin-top: 15px;
+            padding: auto;
+            padding: 10px;
+            border-radius: 2px;
+            font-size: 15px;
+            border: 1px solid rgb(209, 203, 203);
+            
         }
-        h3 {
-            margin-left: 10px;
+        #Credit>input:hover{
+            font-size:18px;
+            border: 1px solid rgb(23, 22, 22);
         }
-        button {
+        h2 {
+            width: 90%;
+            margin: auto;
+            padding: auto;
+            text-align: center;
+            margin-top: 50px;
+            /* border: 1px solid red; */
+        }
+        #SubmitOtp,#generate {
             margin-left: 10px;
             margin-top: 10px;
             width:175px;
-            background-color: black;
+            background-color: rgb(34, 33, 33);
             color: white;
+            border-radius: 5px;
+            font-size: 18px;
+            padding: 5px;
+            /* width: 50%; */
+            margin-left: 50px;
+            border: none;
         }
        #thank {
             color: teal;
-            font-family:'Times New Roman', Times, serif
+            width: 40%;
+            margin: auto;
+            padding: auto;
+            font-family:'Courier New', Courier, monospace;
+           
+
+        }
+        #Credit{
+            width: 300px;
+            /* border: 1px solid red; */
+            margin: auto;
+            padding: auto;
+            margin-top: 50px;
+            padding-left: 50px;
+            visibility: visible; 
+        }
+        #generate:hover {
+            background-color: rgb(126, 196, 126);
+            border: none;
+        }
+        #SubmitOtp:hover{
+            background-color: rgb(126, 196, 126);
+            border: none;
+        }
+        #paymentMethods{
+            width: 15%;
+            /* border: 1px solid red; */
+            margin-left: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #paymentMethods img{
+            width: 100%;
+        }
+        #paymentMethods > div{
+            padding: 5px;
+            background-color: rgb(252, 246, 246);
+            margin-bottom: 10px;
+        }
+        #paymentMethods button:hover{
+            background-color: rgb(231, 160, 160);
+        }
+        #paymentMethods button{
+           border: none;
+           padding: 8px;
+           border-radius: 5px;
         }

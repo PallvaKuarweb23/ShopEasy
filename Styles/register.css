@@ -1,21 +1,101 @@
+#signup > form > input {
+  width: 26%;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
 
-      /* Write all necessery css here  */
-      #signup >form>input {
-        width: 400px;
-        display: block;
-        margin: auto;
-        padding: 10px;
-        margin-bottom: 10px;
-      
-        /* border:1px solid black; */
-      }
-      h1 {
-        margin-top: 100px;
-        text-align: center;
-        font-family:sans-serif;
-      }
-      #signup>form input:nth-child(5){
-        background-color: black;
-        color: white;
-      }
-  
+  /* border:1px solid black; */
+}
+#signup > form > p {
+  margin-left: 36%;
+  /* font-family: sans-serif;
+  font-size: small; */
+  margin-right: 36%;
+}
+h1 {
+  margin-top: 70px;
+  text-align: center;
+  font-family: sans-serif;
+}
+#signup > form input:nth-child(6) {
+  background-color: black;
+  padding: 13px;
+  width: 27.5%;
+  font-size: 15px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+#signup > form input:nth-child(6):hover {
+  font-size: 18px;
+}
+
+.redirectY {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: center;
+  width: 400px;
+  font-size: large;
+
+  margin: auto;
+  margin-bottom: 20px;
+
+  font-family: sans-serif;
+}
+.redirectY a {
+  color: black;
+  margin-top: 18px;
+}
+h2 {
+  margin-left: 36%;
+}
+.buttonsY {
+  display: flex;
+  flex-direction: column;
+  margin-left: 36%;
+  margin-top: 10px;
+  color: black;
+  margin-right: 36%;
+  border-radius: 5px;
+}
+
+
+.buttonsY > button {
+  width: 100%;
+  border-radius: 5px;
+
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+}
+.buttonsY > button:nth-child(2) {
+  background-color: #3b5998;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+}
+
+.buttonsY > button:nth-child(1) {
+  padding: 12px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  background-color: white;
+
+  color: black;
+}
+.buttonsY > button:nth-child(3) {
+  padding: 12px;
+  margin-bottom: 50px;
+  background-color: #ef534e;
+
+  color: white;
+}
+
+#loginY:hover {
+  background-color: black;
+  color: white;
+  font-size: 17px;
+}
