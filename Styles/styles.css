@@ -211,13 +211,22 @@ body {
         color: black;
         padding: 16px;
         text-decoration: none;
+        font-family: sans-serif;
         display: block;
+        font-size: 14px;
         text-align: left;
+        color: rgba(159, 159, 159, 0.942);
         /* border: 2px solid red; */
     }
+    .column a:hover{
+        color: black;
+    }
+
     .column h3 {
         /* border: 2px solid red; */
-        margin-left: 27px;
+        margin-left: 31px;
+        font-family: sans-serif;
+        font-size: 15px;
 
     }
     
