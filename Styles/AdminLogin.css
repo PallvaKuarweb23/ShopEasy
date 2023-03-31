@@ -1,0 +1,47 @@
+form > input {
+  padding: 15px;
+
+  border-radius: 5px;
+  border: 0.5px solid rgb(168, 167, 167);
+}
+
+#loginDiv {
+  width: 15%;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 75px;
+  padding-top: 25px;
+
+  background-color: white;
+  border-radius: 15px;
+}
+#LoginForm {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+  width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+form > input:last-child {
+  border: 0;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+form > input:last-child:hover {
+  background-color: black;
+}
+
+#head {
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 150px;
+  font-family: sans-serif;
+  color: black;
+}

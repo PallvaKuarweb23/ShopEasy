@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #box {
+        text-align: center;
+        display: grid;
+        height: 80vh;
+        align-items: center;
+        font-size: 30px;
+      }
+      #box > h1 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box">
+      <h1>Loading...</h1>
+    </div>
+  </body>
+  <script>
+    setTimeout(() => {
+      window.location.assign("AdminLogin.html");
+    }, 3000);
+  </script>
+</html>
