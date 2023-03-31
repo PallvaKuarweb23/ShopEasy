@@ -1,0 +1,222 @@
+.form-control {
+  width: 300px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Nav bar\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .btnlog {
+  margin-top: -30px;
+  border: none;
+  background-color: #dc3545;
+} */
+
+.btnlog {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 5%;
+  border: 1px solid black;
+}
+
+.btnlog:active {
+  background-color: black;
+}
+
+.container-fluid {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbar {
+  background-color: #dc3545;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+.admin-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+
+  margin-top: 230px;
+
+  position: relative;
+  margin-left: 233px;
+}
+
+#fetch-data-button {
+  width: 40%;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+}
+/* for zoom in ...........*/
+#fetch-data-button:focus {
+  outline: none;
+}
+
+#fetch-data-button:hover {
+  transform: scale(1.1);
+}
+/* end here........... */
+#add-data-button {
+  width: 40%;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+}
+#add-data-button:focus {
+  outline: none;
+}
+
+#add-data-button:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  height: 40px;
+  margin-left: 300px;
+  display: flex;
+  padding: 20px;
+}
+#fetch-data-button,
+#add-data-button {
+  cursor: pointer;
+  margin-left: 40px;
+  height: 40px;
+  background: linear-gradient(to right, #81d4fa, #1565c0);
+  background: linear-gradient(to right, right, #81d4fa, #1565c0);
+  border: none;
+  border-radius: 9px;
+  margin-top: 161px;
+}
+
+#form2 {
+  margin: 30px 0 0 0;
+}
+
+#submitform1,
+#submitform2 {
+  background-color: #006789;
+  color: white;
+}
+
+#add-modal {
+  width: 20%;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* ////////////////////////////////////////////////////////////////////////////////////////////// */
+  padding: 2rem;
+  margin-bottom: 100px;
+  /* margin-top: 30px; */
+  position: sticky;
+  top: 0;
+  z-index: -0;
+}
+
+#data-table {
+  width: 100%;
+  float: right;
+  margin-left: 20px;
+}
+
+#add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+}
+
+#add-form label {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+#add-form input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#data-table th,
+#data-table td {
+  border: 2px solid rgb(0, 0, 35);
+  padding: 8px;
+}
+
+#data-table th {
+  background-color: #f2f2f2;
+}
+
+#data-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#data-table tr:hover {
+  background-color: #ddd;
+}
+
+#data-table th {
+  text-align: left;
+}
+
+.close {
+  cursor: pointer;
+}
+#delete {
+  border: 1px solid red;
+  width: 107%;
+  height: 34px;
+  cursor: pointer;
+  background-color: red;
+  border: none;
+  color: whitesmoke;
+  border-radius: 4px;
+}
+#delete:focus {
+  outline: none;
+}
+
+#delete:hover {
+  transform: scale(1.1);
+  background-color: #d50000;
+}
+
+#footer button {
+  border-radius: 5%;
+}
+
+/* ////////top-to-bottom///////// */
+
+#toptodown {
+  display: none;
+}
+
+#MensY {
+  background-color: #5dbea3;
+  padding: 6px 9px;
+  color: white;
+  border: none;
+  margin: 5px;
+}
+
+#MensY:hover {
+  background-color: #33b249;
+}
+
+#MensY:active {
+  background-color: black;
+}
