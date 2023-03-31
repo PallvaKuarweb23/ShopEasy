@@ -1,0 +1,475 @@
+{
+    "Women": [
+      {
+        "id": 1,
+        "brand": "KOOVS",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3409-232.jpg?v=1668068825&w",
+        "price": 490,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 2,
+        "brand": "NIKE",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3259-163.jpg?v=1668067639",
+        "price": 990,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 3,
+        "brand": "NIKE",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3336-200.jpg?v=1668068295",
+        "price": 890,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 4,
+        "brand": "KOOVS",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3221-145.jpg?v=1677060848",
+        "price": 990,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 5,
+        "brand": "KOOVS",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3354-208.jpg?v=1668068454",
+        "price": 490,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 6,
+        "brand": "ZARA",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3320-192.jpg?v=1668068156&width=493",
+        "price": 490,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 7,
+        "brand": "NIKE",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3470-264.jpg?v=1668074225&width=493",
+        "about": "Smiley Overseized Tee Brown",
+        "price": 590,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 8,
+        "brand": "KOOVS",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3303-183.jpg?v=1668068023&width=493",
+        "about": " Tacos Oversized Tshirt White",
+        "price": 990,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 9,
+        "brand": "KOOVS",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/cherrygraphiccrew-white3_800x-jpg-2.webp?v=1668165560&width=493",
+        "about": "Women Oversized T-Shirt",
+        "price": 690,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 10,
+        "brand": "ZARA",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/contraststitchdetailoversizedcrew-blue4_800x-jpg-2.webp?v=1668165536&width=493",
+        "about": "Women Oversized Cropped T-Shirt",
+        "price": 1190,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 11,
+        "brand": "ZARA",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/cherrygraphiccrew-white3_800x-jpg-2.webp?v=1668165560&width=493",
+        "about": "Women Oversized Cropped T-Shirt",
+        "price": 1190,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 12,
+        "brand": "ZARA",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/cherrygraphiccrew-green5_800x-jpg-2.webp?v=1668165565&width=493",
+        "about": "Women Oversized Cropped T-Shirt",
+        "price": 1190,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 13,
+        "brand": "ZARA",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1_9a0e3143-8494-44f7-9d66-ddd082fe2b46.jpg?v=1677067142&width=493",
+        "about": "Sports Tank Top",
+        "price": 490,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 14,
+        "brand": "KOOVS",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3496-273.jpg?v=1668074409&width=493",
+        "about": "Oversized t-shirt",
+        "price": 990,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 15,
+        "brand": "NIKE",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-0747-8.jpg?v=1668075236&width=493",
+        "about": "Women Oversized T-Shirt",
+        "price": 890,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 16,
+        "brand": "KOOVS",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3447-254.jpg?v=1668074003&width=493",
+        "about": "Super Cars Crop Top Black",
+        "price": 990,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 17,
+        "brand": "ZARA",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/koovs-3287.jpg?v=1677136742&width=360",
+        "about": "Fairisle Jacquard Design Knitted Christmas Set ",
+        "price": 1890.00,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 18,
+        "brand": "NIKE",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/koovs-2410.jpg?v=1670738007&width=533",
+        "about": "Blue Borge Cropped Loungewear Set",
+        "price": 1490,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 19,
+        "brand": "KOOVS",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/690-1-2221962_BLACK_db883ccb-7228-4801-a6b4-4146d1bb21c1.jpg?v=1677071700",
+        "about": "Ball Wham Flock Crew Neck",
+        "price": 27930,
+        "gender": "Women",
+        "category": "T-Shirt"
+      },
+      {
+        "id": 20,
+        "brand": "NIKE",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/koovs-15july222245-275.jpg?v=1668174726",
+        "about": "Court Seamless Legging",
+        "price": 1592.00,
+        "gender": "Women",
+        "category": "T-Shirt"
+      }
+    ],
+    "Men": [
+      {
+        "id": 21,
+        "category": "T-Shirt",
+        "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1666871467_7827504.jpg?format=webp&w=200&dpr=1.9",
+        "brand": "NIKE",
+        "about": "Moon Knight: First Of Vengeance",
+        "price": 999,
+        "gender": "Men"
+      },
+      {
+        "id": 22,
+        "category": "T-Shirt",
+        "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676963608_9448213.jpg?format=webp&w=200&dpr=1.9",
+        "brand": "KOOVS",
+        "about": "Spider-Man: The Suit",
+        "price": 999
+      },
+      {
+        "id": 23,
+        "category": "T-Shirt",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/ritual3.jpg?v=1679580399",
+        "brand": "ZARA",
+        "about": "Spider-Man: The Suit",
+        "price": 1890.00
+      },
+      {
+        "id": 24,
+        "category": "T-Shirt",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/ritual1.jpg?v=1679579896",
+        "brand": "NIKE",
+        "about": "The Ritual (Tie and Dye) T-shirt",
+        "price": 1690.00
+      },
+      {
+        "id": 25,
+        "category": "T-Shirt",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-1516.jpg?v=1677063752",
+        "brand": "KOOVS",
+        "about": "Spider-Man: The Suit",
+        "price": 990.00
+      },
+      {
+        "id": 26,
+        "category": "T-Shirt",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/CTRE3DMULTILOGOT-SHIRT-WHITE10_800x.jpg-2.webp?v=1677983115&width=533",
+        "brand": "ZARA",
+        "about": "Ctre 3D Multi Logo T-Shirt",
+        "price": 1990.00
+      },
+      {
+        "id": 27,
+        "category": "T-Shirt",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/Spade.jpg?v=1677983035&width=533",
+        "brand": "NIKE",
+        "about": "Spade Black Print Relaxed Fit T-Shirt- Black",
+        "price": 1995.00
+      },
+      {
+        "id": 28,
+        "category": "T-Shirt",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1_c73363ce-2f5d-4e33-8cd7-af92907bfe62.jpg?v=1669958177&width=533",
+        "brand": "KOOVS",
+        "about": "Spider-Man: The Suit",
+        "price": 5990.00
+      },
+      {
+        "id": 29,
+        "category": "T-Shirt",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1-343.jpg?v=1670246077",
+        "brand": "ZARA",
+        "about": "Black Vleach Dyed Print Detail Oversized T-Shirt",
+        "price": 890.00
+      },
+      {
+        "id": 30,
+        "category": "T-Shirt",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1-238.jpg?v=1670246013",
+        "brand": "NIKE",
+        "about": "Black Acid Wash Snake Chest Print Detail T-Shirt",
+        "price": 890.00
+      },
+      {
+        "id": 31,
+        "category": "T-Shirt",
+        "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1666421288_5538808.png?format=webp&w=200&dpr=1.9",
+        "brand": "KOOVS",
+        "about": "Captain America: Super soldies",
+        "price": 999
+      },
+      {
+        "id": 32,
+        "category": "T-Shirt",
+        "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1635495365_4671911.jpg?format=webp&w=200&dpr=1.9",
+        "brand": "ZARA",
+        "about": "Solids:Black(Oversized)",
+        "price": 599
+      },
+      {
+        "id": 33,
+        "category": "T-Shirt",
+        "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1675151553_4281225.jpg?format=webp&w=200&dpr=1.9",
+        "brand": "NIKE",
+        "about": "Solids: White",
+        "price": 499
+      },
+      {
+        "id": 34,
+        "category": "T-Shirt",
+        "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676717296_9147455.jpg?format=webp&w=200&dpr=1.9",
+        "brand": "KOOVS",
+        "about": "Solids: White(Oversized)",
+        "price": 499
+      },
+      {
+        "id": 35,
+        "category": "Hoodies",
+        "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1669041465_9066732.jpg?format=webp&w=240&dpr=1.9",
+        "brand": "ZARA",
+        "about": "Captain America: steve Rogers",
+        "price": 2099
+      },
+      {
+        "id": 36,
+        "category": "Hoodies",
+        "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676900423_5667186.jpg?format=webp&w=240&dpr=1.9",
+        "brand": "NIKE",
+        "about": "Solids: Blue Grindle",
+        "price": 999
+      },
+      {
+        "id": 37,
+        "category": "Hoodies",
+        "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1665822159_5462215.jpg?format=webp&w=240&dpr=1.9",
+        "brand": "KOOVS",
+        "about": "Couture Applique Varsity Bomber - Black",
+        "price": 1299
+      },
+      {
+        "id": 38,
+        "category": "Hoodies",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/TCCM1699-BLACK1012_800x_ae4006da-33a3-4045-a25f-3a102190576c.jpg?v=1671193508&width=360",
+        "brand": "ZARA",
+        "about": "College Green Varsity Bomber Jacket- Green",
+        "price": 7420.00
+      },
+      {
+        "id": 39,
+        "category": "Hoodies",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/koovs_20oct22-1303.jpg?v=1668148937",
+        "brand": "NIKE",
+        "about": "Ripstop Unisex Trench Coat",
+        "price": 1299
+      },
+      {
+        "id": 40,
+        "category": "Hoodies",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/TCCM2163BLACK4273_800x_a7bdd570-8c02-4b5b-bab3-8616b809d602.jpg?v=1671193661&width=533",
+        "brand": "KOOVS",
+        "about": "HFur Applique bomber- Black",
+        "price": 7420
+      },
+      {
+        "id": 41,
+        "category": "Hoodies",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/CataloguetemplateKOOVS-02_5fd99dfc-16fe-4490-af5a-cde1accd1fad.jpg?v=1679399518&width=360",
+        "brand": "NIKE",
+        "about": "Bandan Print Distressed Denim Jacket -Blue Wash",
+        "price": 2590.00
+      },
+      {
+        "id": 42,
+        "category": "Hoodies",
+        "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1665589159_9997026.jpg?format=webp&w=240&dpr=1.9",
+        "brand": "ZARA",
+        "about": "Classic Black Hoodie",
+        "price": 1849
+      },
+      {
+        "id": 43,
+        "category": "Shorts",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/templateforproducts-03_519ee037-bc43-40ee-944c-ef7da47e7dae.jpg?v=1679987669",
+        "brand": "ZARA",
+        "about": "As above so below Shorts",
+        "price": 1849
+      },
+      {
+        "id": 44,
+        "category": "Shorts",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/shorts1.jpg?v=1679581972",
+        "brand": "ZARA",
+        "about": "As above so below Shorts",
+        "price": 1400
+      },
+      {
+        "id": 45,
+        "category": "Shorts",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1_1e51b485-5968-47b2-aab5-e7985ddfc012.jpg?v=1669969695&width=533",
+        "brand": "NIKE",
+        "about": "TShirt & Shorts Set",
+        "price": 1500
+      },
+      {
+        "id": 46,
+        "category": "Shorts",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1_aa694aaa-a00d-45d5-b808-3b0d47619565.jpg?v=1669968792&width=533",
+        "brand": "NIKE",
+        "about": "TShirt & Shorts Set",
+        "price": 1000
+      },
+      {
+        "id": 47,
+        "category": "Shorts",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1_bb8a0a43-d316-4862-854b-3392aa22bb7a.jpg?v=1669968325&width=533",
+        "brand": "KOOVS",
+        "about": "TShirt & Shorts Set",
+        "price": 1100
+      },
+      {
+        "id": 48,
+        "category": "Shorts",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/2-331.jpg?v=1677057183&width=533",
+        "brand": "KOOVS",
+        "about": "TShirt & Shorts Set",
+        "price": 1999
+      },
+      {
+        "id": 49,
+        "category": "Shorts",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1.1.jpg?v=1669970119&width=533",
+        "brand": "NIKE",
+        "about": "TShirt & Shorts Set",
+        "price": 2000
+      },
+      {
+        "id": 50,
+        "category": "Shorts",
+        "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1_b8817769-24cb-4a71-9697-8ae7c93919b6.jpg?v=1669968075&width=533",
+        "brand": "KOOVS",
+        "about": "TShirt & Shorts Set",
+        "price": 900
+      },
+      {
+        "id": 51,
+        "category": "Shorts",
+        "Img": "https://www.realmenrealstyle.com/wp-content/uploads/2021/07/how-to-wear-shorts-e1654013159928.jpg",
+        "brand": "KOOVS",
+        "about": "zara",
+        "price": 1990
+      }
+    ],
+    "posts": [
+      {
+        "id": "json-server",
+        "title": "json-server",
+        "author": ""
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some-comment",
+        "postId": 1
+      }
+    ],
+    "profile": [
+      {
+        "name": "typicode"
+      }
+    ],
+    "login": [
+      {
+        "email": "nilson@email.com",
+        "password": "nilson"
+      },
+      {
+        "id": 1,
+        "name": "bruno",
+        "email": "bruno@email.com",
+        "password": "bruno"
+      },
+      {
+        "email": "bruno@email.com",
+        "password": "bruno",
+        "id": 2
+      },
+      {
+        "email": "bruno@email.com",
+        "password": "bruno",
+        "id": 3
+      },
+      {
+        "email": "Tushar@email.com",
+        "password": "123",
+        "id": 4
+      }
+    ]
+  }

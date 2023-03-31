@@ -1,0 +1,23 @@
+{
+  "name": "radioactive-lip-3578-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getProductsK.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PallvaKuarweb23/radioactive-lip-3578-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PallvaKuarweb23/radioactive-lip-3578-/issues"
+  },
+  "homepage": "https://github.com/PallvaKuarweb23/radioactive-lip-3578-#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
