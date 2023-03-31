@@ -131,7 +131,7 @@ verifyUpi.addEventListener("click",()=>{
 
 
 
-// ---------------   for card payment ------------------------
+// ---------------   for      card payment ------------------------
 
 
 let byDebitCard = document.getElementById("byDebitCard");
