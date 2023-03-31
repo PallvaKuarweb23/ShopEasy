@@ -37,12 +37,15 @@
             border: none;
         }
        #thank {
-            color: teal;
+            color: rgb(212, 119, 119);
             width: 40%;
             margin: auto;
             padding: auto;
-            font-family:'Courier New', Courier, monospace;
-    
+            font-family:'Courier New', Courier, monospace; 
+            position: absolute;
+            left: 620px;
+            top:400px;
+            font-size: 35px;
         }
         #PaymentDetails{
             width: 400px;

@@ -7,7 +7,7 @@ let Cvv = document.getElementById("cvv");
 let submitBtn = document.getElementById("SubmitOtp");
 let Otp1 = document.getElementById("otp");
 let generate = document.getElementById("generate");
-
+let PaymentDetails = document.getElementById("PaymentDetails");
 
 
 let  address = document.getElementById("address");
@@ -23,26 +23,8 @@ let  cvv = document.getElementById("cvv");
 var otp = 0;
 generate.addEventListener("click", ()=>{
 
-    if(address.value == ""){
-        alert("Please enter address");
-    }
-    if(city.value == ""){
-        alert("Please enter city");
-    }
-    if(state.value == ""){
-        alert("Please enter state");
-    }
-    if(country.value == ""){
-        alert("Please enter your country");
-    }
-    if(number.value == ""){
-        alert("Please enter card number");
-    }
-    if(expiryDate.value == ""){
-        alert("Please enter expiry date");
-    }
-    if(cvv.value == ""){
-        alert("Please enter correct cvv");
+    if(address.value == "" || city.value == "" || state.value == ""  || country.value == "" || number.value == "" || expiryDate.value == "" ||  cvv.value == "")  {
+        alert("Please enter all requied field");
     }
 
     else{
@@ -71,18 +53,20 @@ generate.addEventListener("click", ()=>{
 })
 
 
-
 submitBtn.addEventListener("click", () => {
+
 
     if (otp == Number(Otp1.value)) {
         alert("Payment Successful 🎉")
         
+        PaymentDetails.style.visibility = "hidden";
+
         h1.innerText = " Thank You for Shopping..!!!"
         setTimeout(function () {
 
            window.location.href = "../index.html"
 
-        }, 2500)
+        }, 3000)
 
     } else {
         alert("Invalid OTP")
@@ -95,9 +79,15 @@ submitBtn.addEventListener("click", () => {
 
 let byUpi = document.getElementById("byUpi");
 let payByUpi = document.getElementById("payByUpi");
-let PaymentDetails = document.getElementById("PaymentDetails");
+
 let verifyUpi = document.getElementById("verifyUpi");
 let upiId = document.getElementById("upiId");
+
+
+let  address2 = document.getElementById("address2");
+let  city2 = document.getElementById("city2");
+let  state2 = document.getElementById("state2");
+let  country2 = document.getElementById("country2");
 
 byUpi.addEventListener("click",()=>{
     payByUpi.style.visibility = "visible";
@@ -105,6 +95,11 @@ byUpi.addEventListener("click",()=>{
 })
 
 verifyUpi.addEventListener("click",()=>{
+
+    if(address2.value == "" || city2.value == "" || state2.value == ""  || country2.value == "" )  {
+        alert("Please enter all requied field");
+    }
+
    if(upiId.value == ""){
     alert("Please enter valid upi")
    }
@@ -114,14 +109,21 @@ verifyUpi.addEventListener("click",()=>{
 
         verifyUpi.innerText = "Done 🎉"
         verifyUpi.style.backgroundColor = "#81C784"
- 
-      }, 1000)
+
+      }, 2000)
 
       setTimeout(function () {
 
+        payByUpi.style.visibility = "hidden";
+        h1.innerText = " Thank You for Shopping..!!!"
+
+     }, 3000)
+
+     setTimeout(function () {
+       
         window.location.href = "../index.html"
 
-     }, 2500)
+     }, 5000)
    }
 })
 
