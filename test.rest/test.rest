@@ -1,7 +1,0 @@
-GET https://api.github.com/users/repo
-
-
-###
-POST https://api.github.com/users/repo
-Content-Type: application/json
-Authorization: Bearer token

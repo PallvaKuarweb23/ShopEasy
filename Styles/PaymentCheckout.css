@@ -1,5 +1,5 @@
 
-        #Credit>input{
+        #PaymentDetails>input{
             width: 80%;
             display: block;
             margin: auto;
@@ -12,19 +12,18 @@
             border: 1px solid rgb(209, 203, 203);
             
         }
-        #Credit>input:hover{
-            font-size:18px;
+        #PaymentDetails>input:hover{
             border: 1px solid rgb(23, 22, 22);
         }
         h2 {
-            width: 90%;
-            margin: auto;
-            padding: auto;
-            text-align: center;
-            margin-top: 50px;
+            width: 20%;
+            margin-top: 30px;
+            margin-left: 50px;
+            padding: 5px;
             /* border: 1px solid red; */
         }
-        button {
+        #SubmitOtp,#generate {
+            margin: auto;
             margin-left: 10px;
             margin-top: 10px;
             width:175px;
@@ -34,28 +33,170 @@
             font-size: 18px;
             padding: 5px;
             /* width: 50%; */
-            margin-left: 50px;
+            margin-left: 20%;
             border: none;
         }
        #thank {
-            color: teal;
+            color: rgb(212, 119, 119);
             width: 40%;
             margin: auto;
             padding: auto;
-            font-family:'Courier New', Courier, monospace;
-           
-
+            font-family:'Courier New', Courier, monospace; 
+            position: absolute;
+            left: 620px;
+            top:400px;
+            font-size: 35px;
         }
-        #Credit{
-            width: 300px;
+        #PaymentDetails{
+            width: 400px;
             /* border: 1px solid red; */
             margin: auto;
             padding: auto;
             margin-top: 50px;
             padding-left: 50px;
             visibility: visible; 
+            padding-top: 30px;
+            padding-bottom: 50px;
+            margin-bottom: 50px;
+            background-color: white;
+            border-radius: 5px;
+            visibility: visible;
         }
-        button:hover {
+        #generate:hover {
             background-color: rgb(126, 196, 126);
             border: none;
+            font-size: 20px;
+        
+        }
+        #SubmitOtp:hover{
+            background-color: rgb(126, 196, 126);
+            border: none;
+            font-size: 20px;
+        }
+        #paymentMethods{
+            width: 15%;
+            /* border: 1px solid red; */
+            margin-left: 20px;
+            font-family: 'Courier New', Courier, monospace;
+         
+        }
+        #middleSecK >div:nth-child(2){
+            width: 70%;
+            /* background-color: rgb(253, 248, 248); */
+            background-color: rgb(254, 250, 250);
+            border-radius: 10px;
+        }
+
+        #paymentMethods img{
+            width: 100%;
+        }
+        #paymentMethods > div{
+            padding: 5px;
+            background-color: rgb(254, 250, 250);
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        #paymentMethods div:hover{
+            background-color: rgb(236, 195, 195);
+            font-size: 20px;
+        }
+        #paymentMethods button{
+           border: none;
+           padding: 8px;
+           border-radius: 5px;
+           
+        }
+        #middleSecK{
+            display: flex;
+            margin-bottom: 40px;
+        }
+        #middleSecK >div{
+            margin-left: 50px ;
+            /* border: 1px solid red; */
+        }
+        #PaymentDetails label{
+            font-family:sans-serif;
+            width: 80%;
+            color:#546E7A ;
+            display: block;
+            margin: auto;
+            margin-left: 10px;
+            margin-top: 15px;
+            padding: auto;
+            padding: 10px;
+            border-radius: 2px;
+            font-size: 15px;
+            border: 1px solid rgb(209, 203, 203);
+            
+        }
+
+        #payByUpi{
+            width: 400px;
+            /* border: 1px solid red; */
+            margin: auto;
+            padding: auto;
+            margin-top: 50px;
+            padding-left: 50px;
+            visibility: visible; 
+            padding-top: 30px;
+            padding-bottom: 50px;
+            margin-bottom: 50px;
+            background-color: white;
+            border-radius: 5px;
+            visibility: hidden;
+            position: absolute;
+            left: 650px;
+            top: 200px;
+        }
+        #payByUpi>input{
+            width: 80%;
+            display: block;
+            margin: auto;
+            margin-left: 10px;
+            margin-top: 15px;
+            padding: auto;
+            padding: 10px;
+            border-radius: 2px;
+            font-size: 15px;
+            border: 1px solid rgb(209, 203, 203);
+            
+        }
+        #payByUpi>input:hover{
+            border: 1px solid rgb(23, 22, 22);
+        }
+    
+        #payByUpi label{
+            font-family:sans-serif;
+            width: 80%;
+            color:#546E7A ;
+            display: block;
+            margin: auto;
+            margin-left: 10px;
+            margin-top: 15px;
+            padding: auto;
+            padding: 10px;
+            border-radius: 2px;
+            font-size: 15px;
+            border: 1px solid rgb(209, 203, 203);
+            font-weight: bold;
+        }
+        #verifyUpi {
+            margin: auto;
+            margin-left: 10px;
+            margin-top: 10px;
+            width:175px;
+            background-color: rgb(34, 33, 33);
+            color: white;
+            border-radius: 5px;
+            font-size: 18px;
+            padding: 5px;
+            /* width: 50%; */
+            margin-left: 20%;
+            border: none;
+            font-weight: bold;
+        }
+        #verifyUpi:hover {
+            border: none;
+            font-size: 20px;
+        
         }
