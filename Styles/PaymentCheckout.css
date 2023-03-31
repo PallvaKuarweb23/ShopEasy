@@ -1,5 +1,7 @@
 
+
         #PaymentDetails>input{
+
             width: 80%;
             display: block;
             margin: auto;
@@ -12,9 +14,10 @@
             border: 1px solid rgb(209, 203, 203);
             
         }
+
         #PaymentDetails>input:hover{
             border: 1px solid rgb(23, 22, 22);
-        }
+
         h2 {
             width: 20%;
             margin-top: 30px;
@@ -33,6 +36,7 @@
             font-size: 18px;
             padding: 5px;
             /* width: 50%; */
+
             margin-left: 20%;
             border: none;
         }
@@ -194,6 +198,7 @@
             margin-left: 20%;
             border: none;
             font-weight: bold;
+
         }
         #verifyUpi:hover {
             border: none;

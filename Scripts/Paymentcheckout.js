@@ -1,11 +1,17 @@
+
 // ----------------  for card payment ---------------
 
+
+
+
 let h1 = document.querySelector("h1")
-// let number = document.getElementById("number");
+let number = document.getElementById("number");
+
 let name = document.getElementById("name");
 let Cvv = document.getElementById("cvv");
 let submitBtn = document.getElementById("SubmitOtp");
 let Otp1 = document.getElementById("otp");
+
 let generate = document.getElementById("generate");
 let PaymentDetails = document.getElementById("PaymentDetails");
 
@@ -68,9 +74,11 @@ submitBtn.addEventListener("click", () => {
 
         }, 3000)
 
+
     } else {
         alert("Invalid OTP")
     }
+
 
 })
 
@@ -146,3 +154,8 @@ byCreditCard.addEventListener("click",()=>{
     PaymentDetails.style.visibility = "visible";
     payByUpi.style.visibility = "hidden";
 })
+
+
+
+
+
