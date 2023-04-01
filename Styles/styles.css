@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
  /* .navbar {
         height: 50px;
@@ -35,7 +36,11 @@ body {
         text-decoration: none;
     }
     .navbar img {
-        height: 40px;
+        padding-top: 30px;
+        /* border: solid 2px red; */
+        height: 60px;
+        width: 100px;
+        margin-right: 140px;
     }
     .nav {
         height: 40px;
@@ -82,15 +87,25 @@ body {
     }
    .women>p {
         font-family:sans-serif;
-        font-size:40px
+        font-size:35px;
+        /* border: solid 2px red; */
+        margin-left: 22px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+
+    
+    
     }
     #sliderwomen{
         /* border: solid 2px red; */
         width: 100%;
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        padding-left: 30px;
+        padding-right: 15px;
+        /* margin-right: 20px; */
         /* flex-wrap: wrap; */
-        /* box-sizing: border-box; */
+        box-sizing: border-box;
         column-gap: 20px;
     }
     #sliderwomen>div>img{
@@ -111,6 +126,9 @@ body {
         display: grid;
         grid-template-columns: repeat(4,1fr);
         column-gap: 20px;
+        padding-left: 30px;
+        padding-right: 15px;
+        box-sizing: border-box;
 
     }
     #slidermen>div>img{
@@ -122,14 +140,21 @@ body {
     }
    .men>p {
         font-family:sans-serif;
-        font-size:40px
+        font-size:35px;
+        margin-left: 22px;
+        padding-top: 20px;
+        padding-bottom: 50px;
     }
     
     .jackets {
         font-family:sans-serif;
         text-align: center;
-        font-size: 40px;
+        font-size:35px;
+        
     }
+    /* .jackets p{
+        font-size:35px;
+    } */
     .small {
         font-family:sans-serif;
         font-size: 20px;
@@ -142,6 +167,10 @@ body {
         display: grid;
         grid-template-columns: repeat(4,1fr);
         column-gap: 20px;
+        padding-left: 30px;
+        margin-bottom: 30px;
+        padding-right: 15px;
+        box-sizing: border-box;
 
     }
     #sliderjacket>div>img{
