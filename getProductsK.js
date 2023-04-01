@@ -10,12 +10,10 @@ let women_pro = JSON.parse(localStorage.getItem("Women_Products")) || [];
 men_products.addEventListener("click", function(event){
     category = men_products.textContent;
     getProducts(category);
-    // window.location.href = "product.html";
 });
 women_products.addEventListener("click", function(event){
     category = women_products.textContent;
     getProducts(category);
-    // window.location.href = "product.html";
 });
 
 function getProducts(category){
@@ -32,6 +30,7 @@ function getProducts(category){
             localStorage.setItem("Women_Products", JSON.stringify(data));
             localStorage.setItem("Men_Products", JSON.stringify([]));
         }
+        window.location.href = "../html/product.html";
     })
     .catch(error => {
         console.log(error);
@@ -55,3 +54,4 @@ tshirts.addEventListener("click", function(event){
     localStorage.setItem("Men_Products", JSON.stringify([]));
 
 });
+
