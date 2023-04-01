@@ -15,16 +15,16 @@
 } */
 
 .btnlog {
-  background-color: white;
-  text-decoration: none;
-  color: black;
+  background-color: rgb(207, 203, 203);
+
   padding: 5px 15px;
   border-radius: 5%;
-  border: 1px solid black;
+  border: none;
 }
-
-.btnlog:active {
-  background-color: black;
+.btnlog:hover {
+  background-color: rgb(126, 196, 126);
+  border: none;
+  font-size: 20px;
 }
 
 .container-fluid {
@@ -33,9 +33,10 @@
   z-index: 1;
 }
 .navbar {
-  background-color: #dc3545;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   position: sticky;
   top: 0;
+  background-color: white;
   z-index: 1;
 }
 
@@ -181,7 +182,7 @@
   width: 107%;
   height: 34px;
   cursor: pointer;
-  background-color: red;
+  background-color: black;
   border: none;
   color: whitesmoke;
   border-radius: 4px;
@@ -192,7 +193,7 @@
 
 #delete:hover {
   transform: scale(1.1);
-  background-color: #d50000;
+  background-color: rgb(126, 196, 126);
 }
 
 #footer button {
@@ -206,7 +207,8 @@
 }
 
 #womenY {
-  background-color: #5dbea3;
+  /* background-color: #006789; */
+  background: linear-gradient(to right, #81d4fa, #1565c0);
   padding: 6px 9px;
   color: white;
   border: none;

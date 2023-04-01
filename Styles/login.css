@@ -53,7 +53,9 @@ h1 {
   font-size: 15px;
 }
 .newY button:hover {
-  font-size: 18px;
+  background-color: rgb(126, 196, 126);
+  border: none;
+  font-size: 20px;
 }
 form {
   text-align: center;
@@ -81,9 +83,10 @@ form > input {
   padding: 12px;
 }
 #submitY:hover {
-  font-size: 18px;
+  background-color: rgb(126, 196, 126);
+  border: none;
+  font-size: 20px;
 }
-
 .buttonsY > button {
   margin-top: 10px;
   color: black;

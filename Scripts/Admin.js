@@ -1,6 +1,7 @@
 let data = [];
 // ///////////////////////////////////////////////////////////////////////////////
-let url1 = "https://mockapi-nr5i.onrender.com/Smartphones";
+
+let url1 = "http://localhost:3000/Men";
 
 fetchData();
 
@@ -12,18 +13,16 @@ function closeAddModal() {
   document.getElementById("add-modal").style.display = "none";
 }
 
-let registerButton = document.querySelector("#submitform1");
-registerButton.addEventListener("click", registerdeta);
 let form = document.querySelector("#add-form");
-async function registerdeta(event) {
+form.addEventListener("submit", async function registerdeta(event) {
   event.preventDefault();
   //  console.log(data)
   try {
     let obj = {
-      image: form.image.value,
-      name: form.name.value,
+      Img: form.image.value,
+      brand: form.name.value,
       price: form.number.value,
-      description: form.desc.value,
+      about: form.desc.value,
       gender: form.gender.value,
       category: form.category.value,
 
@@ -43,7 +42,7 @@ async function registerdeta(event) {
   } catch (error) {
     console.log(error);
   }
-}
+});
 
 function renderCardList(cardData) {
   let cardList = `
@@ -52,13 +51,13 @@ function renderCardList(cardData) {
         .map((item) =>
           getCard(
             item.id,
-            item.name,
+            item.brand,
             // item.department,
-            item.image,
+            item.Img,
             item.price,
             item.category,
             item.gender,
-            item.description
+            item.about
           )
         )
         .join("")}
@@ -69,16 +68,16 @@ function renderCardList(cardData) {
   mainSection.innerHTML = cardList;
 }
 
-function getCard(id, name, image, number, category, gender, desc) {
+function getCard(id, brand, Img, number, category, gender, about) {
   let card = `
         <tr>
             <td>${id}</td>
-            <td><img src="${image}" height="100" width="100"></td>
-            <td>${name}</td>
+            <td><img src="${Img}" height="100" width="100"></td>
+            <td>${brand}</td>
             <td>${category}</td>
              <td>${gender}</td>
             <td>${number}</td>
-            <td>${desc}</td>
+            <td>${about}</td>
             <td><button id="delete" onclick="deleteData(${id})">Delete</button></td>
         </tr>
   `;
