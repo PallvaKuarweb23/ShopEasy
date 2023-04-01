@@ -10,12 +10,10 @@ let women_pro = JSON.parse(localStorage.getItem("Women_Products")) || [];
 men_products.addEventListener("click", function(event){
     category = men_products.textContent;
     getProducts(category);
-    // window.location.href = "product.html";
 });
 women_products.addEventListener("click", function(event){
     category = women_products.textContent;
     getProducts(category);
-    // window.location.href = "product.html";
 });
 
 function getProducts(category){
@@ -32,8 +30,29 @@ function getProducts(category){
             localStorage.setItem("Women_Products", JSON.stringify(data));
             localStorage.setItem("Men_Products", JSON.stringify([]));
         }
+        window.location.href = "../html/product.html";
     })
     .catch(error => {
         console.log(error);
     })
 }
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++///////////////////////////////++++++++++++++++++++++++++++++++++++++++
+
+// let tshirts = document.getElementById("mtshirts");
+
+// tshirts.addEventListener("click", function(event){
+//     console.log("Add Event Listener working");
+//     let category = "Men";
+//     getProducts(category);
+//     let men_shirts = men_pro.filter(element => {
+//         if(element.category == "T-Shirt"){
+//             return element;
+//         }
+//     });
+//     // console.log(men_shirts);
+//     localStorage.setItem("Mens_Tshirts", JSON.stringify(men_shirts));
+//     localStorage.setItem("Men_Products", JSON.stringify([]));
+
+// });
+

@@ -359,16 +359,21 @@ let WISH=JSON.parse(localStorage.getItem("wishlist"))|| [];
 // ---------------------=======================================================================***********************************************
 let menPro = JSON.parse(localStorage.getItem("Men_Products")) || [];
 let womenPro = JSON.parse(localStorage.getItem("Women_Products")) || [];
+let men_tshirt = JSON.parse(localStorage.getItem("Men_Shirts")) || [];
 
-if(womenPro.length == 0){
+if(womenPro.length == 0 && men_tshirt.length == 0){
     DisplayData(menPro);
-    console.log(menPro);
-}else{
+    // console.log(menPro);
+}else if(men_tshirt.length == 0 && menPro.length == 0){
     DisplayData(womenPro);
-    console.log(womenPro);
+    // console.log(womenPro);
+}else{
+    DisplayData(men_tshirt);
 }
-console.log(menPro.length, womenPro.length);
-
+// console.log(menPro.length, womenPro.length);
+// if(men_tshirt.length != 0){
+    
+// }
 
 
 
