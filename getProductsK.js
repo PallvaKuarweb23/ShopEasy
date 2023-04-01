@@ -37,3 +37,21 @@ function getProducts(category){
         console.log(error);
     })
 }
+
+
+let tshirts = document.getElementById("mtshirts");
+
+tshirts.addEventListener("click", function(event){
+    console.log("Add Event Listener working");
+    let category = "Men";
+    getProducts(category);
+    let men_shirts = men_pro.filter(element => {
+        if(element.category == "T-Shirt"){
+            return element;
+        }
+    });
+    // console.log(men_shirts);
+    localStorage.setItem("Mens_Tshirts", JSON.stringify(men_shirts));
+    localStorage.setItem("Men_Products", JSON.stringify([]));
+
+});
