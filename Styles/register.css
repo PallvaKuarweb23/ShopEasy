@@ -29,9 +29,10 @@ h1 {
   cursor: pointer;
 }
 #signup > form input:nth-child(6):hover {
-  font-size: 18px;
+  background-color: rgb(126, 196, 126);
+  border: none;
+  font-size: 20px;
 }
-
 .redirectY {
   display: flex;
   /* border: 1px solid red; */
@@ -60,7 +61,6 @@ h2 {
   margin-right: 36%;
   border-radius: 5px;
 }
-
 
 .buttonsY > button {
   width: 100%;
@@ -95,7 +95,7 @@ h2 {
 }
 
 #loginY:hover {
-  background-color: black;
-  color: white;
-  font-size: 17px;
+  background-color: rgb(126, 196, 126);
+  border: none;
+  font-size: 20px;
 }
