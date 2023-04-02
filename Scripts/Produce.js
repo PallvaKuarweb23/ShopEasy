@@ -58,7 +58,7 @@ data.forEach((element) => {
 
     let Image1 = document.createElement("img");
     let Brand = document.createElement("p");
-    // let Category = document.createElement("h4");
+     let Size = document.createElement("h4");
     let Price = document.createElement("h3");
     // let About = document.createElement("h4");
     let AddtoCart = document.createElement("button");
@@ -70,7 +70,7 @@ data.forEach((element) => {
     // redirect.textContent=element.Img
     Image1.src=element.Img;
     Brand.innerText=element.brand;
-    // About.innerText=element.about;
+    Size.innerText=element.size;
     Price.innerText=`Rs. ${element.price}`;
     AddtoCart.innerText="Buy It Now"
     AddtoWish.textContent="Add to Wishlist"
@@ -104,7 +104,7 @@ data.forEach((element) => {
         }
     })
     
-    card.append(Image1, Brand,Price, category, AddtoCart,AddtoWish)
+    card.append(Image1, Brand,Size,Price, category, AddtoCart,AddtoWish)
     Container.append(card)
 } )
 }
@@ -202,26 +202,26 @@ S.addEventListener("change", function(e){
     // console.log(S.id);
     let size = S.id;
     console.log("clicked");
-    getfilteredData(size)
+    getfilteredSize(size)
 })
 M.addEventListener("change", function(e){
     let size = M.id;
-    getfilteredData(size)
+    getfilteredSize(size)
 })
 L.addEventListener("change", function(e){
     let size = L.id;
-    getfilteredData(size)
+    getfilteredSize(size)
 })
 XL.addEventListener("change", function(e){
     let size = XL.id;
-    getfilteredData(size)
+    getfilteredSize(size)
 })
 XXL.addEventListener("change", function(e){
     let size = XXL.id;
-    getfilteredData(size)
+    getfilteredSize(size)
 })
 
-function getfilteredData (size){
+function getfilteredSize (size){
     // let sProducts = 
     fetch(`${baseUrl}Men?size=${size}`)
     .then ((res)=>{
@@ -233,3 +233,95 @@ function getfilteredData (size){
     })
 
 }
+
+let koovs = document.getElementById("koovs");
+let nike = document.getElementById("nike");
+let zara = document.getElementById("zara");
+
+koovs.addEventListener("change", function(e){
+   
+    let brand = "KOOVS";
+    getfilteredBrand(brand)
+})
+
+nike.addEventListener("change", function(e){
+   
+    let brand = "NIKE";
+    getfilteredBrand(brand)
+})
+
+zara.addEventListener("change", function(e){
+   
+    let brand = "ZARA";
+    getfilteredBrand(brand)
+})
+
+function getfilteredBrand (brand){
+    // let sProducts = 
+    fetch(`${baseUrl}Men?brand=${brand}`)
+    .then ((res)=>{
+        return res.json()
+    })
+    .then ((data)=>{
+        console.log(data);
+        DisplayData(data)
+    })
+
+}
+
+let TShirt = document.getElementById("TShirt");
+let Hoodies = document.getElementById("Hoodies");
+let Shorts = document.getElementById("Shorts");
+
+TShirt.addEventListener("change", function(e){
+   
+    let category = "TShirt";
+    getfilteredCategory(category)
+})
+
+Hoodies.addEventListener("change", function(e){
+   
+    let category = "Hoodies";
+    getfilteredCategory(category)
+})
+
+Shorts.addEventListener("change", function(e){
+   
+    let category = "Shorts";
+    getfilteredCategory(category)
+})
+
+function getfilteredCategory (category){
+    // let sProducts = 
+    fetch(`${baseUrl}Men?category=${category}`)
+    .then ((res)=>{
+        return res.json()
+    })
+    .then ((data)=>{
+        console.log(data);
+        DisplayData(data)
+    })
+
+}
+
+// let LT500 = document.getElementById("less-than-100");
+// let p501to1000 = document.getElementById("501-1000");
+// let p1001to2000 = document.getElementById("1001-2000");
+// let MT2000 = document.getElementById("more-than-2000");
+
+// LT500.addEventListener("change", function(e){
+//     getfilteredPrice(2000)
+// })
+
+// function getfilteredPrice (gt,lt){
+//     // let sProducts = 
+//     fetch(`${baseUrl}Men?price=gt${gt}`)
+//     .then ((res)=>{
+//         return res.json()
+//     })
+//     .then ((data)=>{
+//         console.log(data);
+//         DisplayData(data)
+//     })
+
+// }
