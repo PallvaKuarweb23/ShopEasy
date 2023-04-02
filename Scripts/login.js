@@ -2,8 +2,32 @@ let form = document.querySelector("form");
 let email = document.getElementById("email");
 let pass = document.getElementById("password");
 let h1 = document.getElementById("heading");
-let data = JSON.parse(localStorage.getItem("User-data"));
+let data = JSON.parse(localStorage.getItem("User-data")); 
+
 // console.log(data)
+
+// ==========================     Krishna    ===================
+
+let currentUser = JSON.parse(localStorage.getItem("current-user")) || [];
+let LogoutBtn = document.getElementById("LogoutBtn");
+
+
+if(currentUser.length ==  0){
+   LogoutBtn.style.visibility = "hidden";
+}
+else{
+  LogoutBtn.style.visibility = "visible";
+}
+
+
+LogoutBtn.addEventListener("click",()=>{
+    currentUser = [];
+    localStorage.setItem("current-user",JSON.stringify(currentUser))
+    LogoutBtn.style.visibility = "hidden";
+    window.location.href = "login.html"
+})
+
+// ==========================     Krishna    ===================
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
@@ -12,6 +36,9 @@ form.addEventListener("submit", function (e) {
   for (let i = 0; i < data.length; i++) {
     if (email.value === data[i].email && pass.value === data[i].password) {
       print = true;
+       currentUser = data[i]
+       localStorage.setItem("current-user",JSON.stringify(currentUser))
+
       break;
     }
   }
