@@ -6,6 +6,8 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3409-232.jpg?v=1668068825&w",
       "price": 490,
       "gender": "Women",
+      "about": "Moon Knight: First Of Vengeance",
+      "size": "XL",
       "category": "T-Shirt"
     },
     {
@@ -14,6 +16,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3259-163.jpg?v=1668067639",
       "price": 990,
       "gender": "Women",
+      "size": "L",
       "category": "T-Shirt"
     },
     {
@@ -22,6 +25,8 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3336-200.jpg?v=1668068295",
       "price": 890,
       "gender": "Women",
+      "about": "Moon Knight: First Of Vengeance",
+      "size": "XL",
       "category": "T-Shirt"
     },
     {
@@ -30,6 +35,8 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3221-145.jpg?v=1677060848",
       "price": 990,
       "gender": "Women",
+      "about": "Smiley Overseized Tee Brown",
+      "size": "L",
       "category": "T-Shirt"
     },
     {
@@ -38,6 +45,8 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3354-208.jpg?v=1668068454",
       "price": 490,
       "gender": "Women",
+      "about": "Women Oversized T-Shirt",
+      "size": "XL",
       "category": "T-Shirt"
     },
     {
@@ -46,6 +55,8 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-3320-192.jpg?v=1668068156&width=493",
       "price": 490,
       "gender": "Women",
+      "about": "Solids:Black(Oversized)",
+      "size": "L",
       "category": "T-Shirt"
     },
     {
@@ -55,6 +66,8 @@
       "about": "Smiley Overseized Tee Brown",
       "price": 590,
       "gender": "Women",
+
+      "size": "X",
       "category": "T-Shirt"
     },
     {
@@ -64,6 +77,7 @@
       "about": " Tacos Oversized Tshirt White",
       "price": 990,
       "gender": "Women",
+      "size": "XL",
       "category": "T-Shirt"
     },
     {
@@ -73,6 +87,7 @@
       "about": "Women Oversized T-Shirt",
       "price": 690,
       "gender": "Women",
+      "size": "S",
       "category": "T-Shirt"
     },
     {
@@ -82,6 +97,7 @@
       "about": "Women Oversized Cropped T-Shirt",
       "price": 1190,
       "gender": "Women",
+      "size": "L",
       "category": "T-Shirt"
     },
     {
@@ -91,6 +107,7 @@
       "about": "Women Oversized Cropped T-Shirt",
       "price": 1190,
       "gender": "Women",
+      "size": "X",
       "category": "T-Shirt"
     },
     {
@@ -100,6 +117,7 @@
       "about": "Women Oversized Cropped T-Shirt",
       "price": 1190,
       "gender": "Women",
+      "size": "L",
       "category": "T-Shirt"
     },
     {
@@ -109,6 +127,7 @@
       "about": "Sports Tank Top",
       "price": 490,
       "gender": "Women",
+      "size": "X",
       "category": "T-Shirt"
     },
     {
@@ -118,6 +137,7 @@
       "about": "Oversized t-shirt",
       "price": 990,
       "gender": "Women",
+      "size": "XL",
       "category": "T-Shirt"
     },
     {
@@ -127,6 +147,7 @@
       "about": "Women Oversized T-Shirt",
       "price": 890,
       "gender": "Women",
+      "size": "X",
       "category": "T-Shirt"
     },
     {
@@ -136,6 +157,7 @@
       "about": "Super Cars Crop Top Black",
       "price": 990,
       "gender": "Women",
+      "size": "XL",
       "category": "T-Shirt"
     },
     {
@@ -145,6 +167,7 @@
       "about": "Fairisle Jacquard Design Knitted Christmas Set ",
       "price": 1890,
       "gender": "Women",
+      "size": "M",
       "category": "T-Shirt"
     },
     {
@@ -154,6 +177,7 @@
       "about": "Blue Borge Cropped Loungewear Set",
       "price": 1490,
       "gender": "Women",
+      "size": "XL",
       "category": "T-Shirt"
     },
     {
@@ -163,6 +187,7 @@
       "about": "Ball Wham Flock Crew Neck",
       "price": 27930,
       "gender": "Women",
+      "size": "X",
       "category": "T-Shirt"
     },
     {
@@ -172,6 +197,7 @@
       "about": "Court Seamless Legging",
       "price": 1592,
       "gender": "Women",
+      "size": "XL",
       "category": "T-Shirt"
     }
   ],
@@ -183,6 +209,7 @@
       "brand": "NIKE",
       "about": "Moon Knight: First Of Vengeance",
       "price": 999,
+      "size": "S",
       "gender": "Men"
     },
     {
@@ -191,6 +218,7 @@
       "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676963608_9448213.jpg?format=webp&w=200&dpr=1.9",
       "brand": "KOOVS",
       "about": "Spider-Man: The Suit",
+      "size": "XL",
       "price": 999
     },
     {
@@ -199,6 +227,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/ritual3.jpg?v=1679580399",
       "brand": "ZARA",
       "about": "Spider-Man: The Suit",
+      "size": "X",
       "price": 1890
     },
     {
@@ -207,6 +236,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/ritual1.jpg?v=1679579896",
       "brand": "NIKE",
       "about": "The Ritual (Tie and Dye) T-shirt",
+      "size": "XL",
       "price": 1690
     },
     {
@@ -215,6 +245,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/KOOVS_20OCT22-1516.jpg?v=1677063752",
       "brand": "KOOVS",
       "about": "Spider-Man: The Suit",
+      "size": "X",
       "price": 990
     },
     {
@@ -223,6 +254,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/CTRE3DMULTILOGOT-SHIRT-WHITE10_800x.jpg-2.webp?v=1677983115&width=533",
       "brand": "ZARA",
       "about": "Ctre 3D Multi Logo T-Shirt",
+      "size": "XL",
       "price": 1990
     },
     {
@@ -231,6 +263,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/Spade.jpg?v=1677983035&width=533",
       "brand": "NIKE",
       "about": "Spade Black Print Relaxed Fit T-Shirt- Black",
+      "size": "L",
       "price": 1995
     },
     {
@@ -239,6 +272,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1_c73363ce-2f5d-4e33-8cd7-af92907bfe62.jpg?v=1669958177&width=533",
       "brand": "KOOVS",
       "about": "Spider-Man: The Suit",
+      "size": "M",
       "price": 5990
     },
     {
@@ -247,6 +281,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1-343.jpg?v=1670246077",
       "brand": "ZARA",
       "about": "Black Vleach Dyed Print Detail Oversized T-Shirt",
+      "size": "S",
       "price": 890
     },
     {
@@ -255,6 +290,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1-238.jpg?v=1670246013",
       "brand": "NIKE",
       "about": "Black Acid Wash Snake Chest Print Detail T-Shirt",
+      "size": "XL",
       "price": 890
     },
     {
@@ -263,6 +299,7 @@
       "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1666421288_5538808.png?format=webp&w=200&dpr=1.9",
       "brand": "KOOVS",
       "about": "Captain America: Super soldies",
+      "size": "L",
       "price": 999
     },
     {
@@ -271,6 +308,7 @@
       "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1635495365_4671911.jpg?format=webp&w=200&dpr=1.9",
       "brand": "ZARA",
       "about": "Solids:Black(Oversized)",
+      "size": "S",
       "price": 599
     },
     {
@@ -279,6 +317,7 @@
       "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1675151553_4281225.jpg?format=webp&w=200&dpr=1.9",
       "brand": "NIKE",
       "about": "Solids: White",
+      "size": "XL",
       "price": 499
     },
     {
@@ -287,6 +326,7 @@
       "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676717296_9147455.jpg?format=webp&w=200&dpr=1.9",
       "brand": "KOOVS",
       "about": "Solids: White(Oversized)",
+      "size": "X",
       "price": 499
     },
     {
@@ -295,6 +335,7 @@
       "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1669041465_9066732.jpg?format=webp&w=240&dpr=1.9",
       "brand": "ZARA",
       "about": "Captain America: steve Rogers",
+      "size": "L",
       "price": 2099
     },
     {
@@ -303,6 +344,7 @@
       "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676900423_5667186.jpg?format=webp&w=240&dpr=1.9",
       "brand": "NIKE",
       "about": "Solids: Blue Grindle",
+      "size": "XL",
       "price": 999
     },
     {
@@ -311,6 +353,7 @@
       "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1665822159_5462215.jpg?format=webp&w=240&dpr=1.9",
       "brand": "KOOVS",
       "about": "Couture Applique Varsity Bomber - Black",
+      "size": "M",
       "price": 1299
     },
     {
@@ -319,6 +362,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/TCCM1699-BLACK1012_800x_ae4006da-33a3-4045-a25f-3a102190576c.jpg?v=1671193508&width=360",
       "brand": "ZARA",
       "about": "College Green Varsity Bomber Jacket- Green",
+      "size": "XL",
       "price": 7420
     },
     {
@@ -327,6 +371,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/koovs_20oct22-1303.jpg?v=1668148937",
       "brand": "NIKE",
       "about": "Ripstop Unisex Trench Coat",
+      "size": "L",
       "price": 1299
     },
     {
@@ -335,6 +380,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/TCCM2163BLACK4273_800x_a7bdd570-8c02-4b5b-bab3-8616b809d602.jpg?v=1671193661&width=533",
       "brand": "KOOVS",
       "about": "HFur Applique bomber- Black",
+      "size": "XL",
       "price": 7420
     },
     {
@@ -343,6 +389,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/CataloguetemplateKOOVS-02_5fd99dfc-16fe-4490-af5a-cde1accd1fad.jpg?v=1679399518&width=360",
       "brand": "NIKE",
       "about": "Bandan Print Distressed Denim Jacket -Blue Wash",
+      "size": "M",
       "price": 2590
     },
     {
@@ -351,6 +398,7 @@
       "Img": "https://prod-Img.thesouledstore.com/public/theSoul/uploads/catalog/product/1665589159_9997026.jpg?format=webp&w=240&dpr=1.9",
       "brand": "ZARA",
       "about": "Classic Black Hoodie",
+      "size": "XL",
       "price": 1849
     },
     {
@@ -359,6 +407,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/templateforproducts-03_519ee037-bc43-40ee-944c-ef7da47e7dae.jpg?v=1679987669",
       "brand": "ZARA",
       "about": "As above so below Shorts",
+      "size": "S",
       "price": 1849
     },
     {
@@ -367,6 +416,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/shorts1.jpg?v=1679581972",
       "brand": "ZARA",
       "about": "As above so below Shorts",
+      "size": "L",
       "price": 1400
     },
     {
@@ -375,6 +425,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1_1e51b485-5968-47b2-aab5-e7985ddfc012.jpg?v=1669969695&width=533",
       "brand": "NIKE",
       "about": "TShirt & Shorts Set",
+      "size": "XL",
       "price": 1500
     },
     {
@@ -383,6 +434,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1_aa694aaa-a00d-45d5-b808-3b0d47619565.jpg?v=1669968792&width=533",
       "brand": "NIKE",
       "about": "TShirt & Shorts Set",
+      "size": "S",
       "price": 1000
     },
     {
@@ -391,6 +443,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/1_bb8a0a43-d316-4862-854b-3392aa22bb7a.jpg?v=1669968325&width=533",
       "brand": "KOOVS",
       "about": "TShirt & Shorts Set",
+      "size": "L",
       "price": 1100
     },
     {
@@ -399,6 +452,7 @@
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/2-331.jpg?v=1677057183&width=533",
       "brand": "KOOVS",
       "about": "TShirt & Shorts Set",
+      "size": "XL",
       "price": "19989"
     }
   ],
