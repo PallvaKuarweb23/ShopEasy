@@ -18,6 +18,28 @@ let  number = document.getElementById("number");
 let  expiryDate = document.getElementById("expiryDate");
 let  cvv = document.getElementById("cvv");
 
+// ==========================     Krishna    ===================
+
+let currentUser = JSON.parse(localStorage.getItem("current-user")) || [];
+let LogoutBtn = document.getElementById("LogoutBtn");
+
+
+if(currentUser.length ==  0){
+   LogoutBtn.style.visibility = "hidden";
+}
+else{
+  LogoutBtn.style.visibility = "visible";
+}
+
+
+LogoutBtn.addEventListener("click",()=>{
+    currentUser = [];
+    localStorage.setItem("current-user",JSON.stringify(currentUser))
+    LogoutBtn.style.visibility = "hidden";
+    window.location.href = "login.html"
+})
+
+// ==========================     Krishna    ===================
 
 
 var otp = 0;

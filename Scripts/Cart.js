@@ -3,7 +3,43 @@ let LSData=JSON.parse(localStorage.getItem("Cart"))||[]
 let pay=document.getElementById("btn")
 let Container=document.getElementById("Container")
 let total= document.getElementById("cart-total")
-let totalcart=document.getElementById("cart-total1")
+let totalcart=document.getElementById("cart-total1");
+
+
+
+// ==========================     Krishna    ===================
+
+let currentUser = JSON.parse(localStorage.getItem("current-user")) || [];
+let LogoutBtn = document.getElementById("LogoutBtn");
+
+
+if(currentUser.length ==  0){
+   LogoutBtn.style.visibility = "hidden";
+}
+else{
+  LogoutBtn.style.visibility = "visible";
+}
+
+
+LogoutBtn.addEventListener("click",()=>{
+    currentUser = [];
+    localStorage.setItem("current-user",JSON.stringify(currentUser))
+    LogoutBtn.style.visibility = "hidden";
+    window.location.href = "login.html"
+})
+
+// ==========================     Krishna    ===================
+
+
+
+
+
+
+
+
+
+
+
 pay.addEventListener("click",()=>{
         location.replace("./paymentcheckout.html")
 

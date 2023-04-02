@@ -6,6 +6,7 @@ let product=document.getElementById("product")
  })
 
    // Slideshow Part
+
    var timeOut = 0;
    var slideIndex = 0;
    var autoOn = true;
@@ -73,3 +74,28 @@ let product=document.getElementById("product")
        showSlides();
    })
    
+
+
+// ==========================     Krishna    ===================
+
+let currentUser = JSON.parse(localStorage.getItem("current-user")) || [];
+let LogoutBtn = document.getElementById("LogoutBtn");
+
+
+if(currentUser.length ==  0){
+   LogoutBtn.style.visibility = "hidden";
+}
+else{
+  LogoutBtn.style.visibility = "visible";
+}
+
+
+LogoutBtn.addEventListener("click",()=>{
+    currentUser = [];
+    localStorage.setItem("current-user",JSON.stringify(currentUser))
+    LogoutBtn.style.visibility = "hidden";
+    window.location.href = "login.html"
+})
+
+// ==========================     Krishna    ===================
+
