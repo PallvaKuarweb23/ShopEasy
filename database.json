@@ -66,7 +66,6 @@
       "about": "Smiley Overseized Tee Brown",
       "price": 590,
       "gender": "Women",
-
       "size": "XXL",
       "category": "TShirt"
     },
@@ -444,7 +443,7 @@
       "brand": "KOOVS",
       "about": "TShirt & Shorts Set",
       "size": "L",
-      "price": 1100
+      "price": "99"
     },
     {
       "id": 48,
@@ -453,7 +452,16 @@
       "brand": "KOOVS",
       "about": "TShirt & Shorts Set",
       "size": "XL",
-      "price": "19989"
+      "price": "1990"
+    },
+    {
+      "Img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676963608_9448213.jpg?format=webp&w=200&dpr=1.9",
+      "brand": "KOOVS",
+      "price": "1999",
+      "about": "ksbdfu",
+      "size": "XL",
+      "category": "T-shirts",
+      "id": 49
     }
   ],
   "posts": [
