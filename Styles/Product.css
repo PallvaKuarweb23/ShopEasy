@@ -4,8 +4,12 @@ body{
 
 #product_layout{
     display: flex;
-    border: solid 2px blue;
+    /* border: solid 2px blue; */
     width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
     justify-content: space-between;
     align-items: flex-start;
     
@@ -16,7 +20,7 @@ body{
     grid-template-columns: repeat(3,1fr);
     column-gap: 35px;
     row-gap: 30px;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     width: 75%;
     margin: auto;
 }
@@ -33,7 +37,7 @@ body{
     padding: 4px;
     position: sticky;
     top: 50px;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     left: 10px;
     
 }
