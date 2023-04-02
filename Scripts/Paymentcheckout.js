@@ -122,7 +122,7 @@ verifyUpi.addEventListener("click",()=>{
         alert("Please enter all requied field");
     }
 
-   if(upiId.value == ""){
+   else if(upiId.value == ""){
     alert("Please enter valid upi")
    }
    else{
@@ -148,8 +148,6 @@ verifyUpi.addEventListener("click",()=>{
      }, 5000)
    }
 })
-
-
 
 
 
