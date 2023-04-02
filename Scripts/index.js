@@ -1,4 +1,4 @@
-let product=document.getElementById("product")
+let product=document.getElementById("product1")
  product.addEventListener("click",()=>{
 
     window.location.href="../html/product.html"
@@ -6,7 +6,6 @@ let product=document.getElementById("product")
  })
 
    // Slideshow Part
-
    var timeOut = 0;
    var slideIndex = 0;
    var autoOn = true;
@@ -74,8 +73,6 @@ let product=document.getElementById("product")
        showSlides();
    })
    
-
-
 // ==========================     Krishna    ===================
 
 let currentUser = JSON.parse(localStorage.getItem("current-user")) || [];
@@ -99,3 +96,19 @@ LogoutBtn.addEventListener("click",()=>{
 
 // ==========================     Krishna    ===================
 
+   const productContainers = [...document.querySelectorAll('.product-container')];
+   const nxtBtn = [...document.querySelectorAll('.nxt-btn1')];
+   const preBtn = [...document.querySelectorAll('.pre-btn1')];
+   
+   productContainers.forEach((item, i) => {
+       let containerDimensions = item.getBoundingClientRect();
+       let containerWidth = containerDimensions.width;
+   
+       nxtBtn[i].addEventListener('click', () => {
+           item.scrollLeft += containerWidth;
+       })
+   
+       preBtn[i].addEventListener('click', () => {
+           item.scrollLeft -= containerWidth;
+       })
+   })
