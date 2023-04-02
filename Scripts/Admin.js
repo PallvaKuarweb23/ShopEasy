@@ -23,7 +23,7 @@ form.addEventListener("submit", async function registerdeta(event) {
       brand: form.name.value,
       price: form.number.value,
       about: form.desc.value,
-      gender: form.gender.value,
+      size: form.size.value,
       category: form.category.value,
 
       // department:registerUserLevel.value
@@ -56,7 +56,7 @@ function renderCardList(cardData) {
             item.Img,
             item.price,
             item.category,
-            item.gender,
+            item.size,
             item.about
           )
         )
@@ -68,14 +68,14 @@ function renderCardList(cardData) {
   mainSection.innerHTML = cardList;
 }
 
-function getCard(id, brand, Img, number, category, gender, about) {
+function getCard(id, brand, Img, number, category, size, about) {
   let card = `
         <tr>
             <td>${id}</td>
             <td><img src="${Img}" height="100" width="100"></td>
             <td>${brand}</td>
             <td>${category}</td>
-             <td>${gender}</td>
+             <td>${size}</td>
             <td>${number}</td>
             <td>${about}</td>
             <td><button id="delete" onclick="deleteData(${id})">Delete</button></td>
