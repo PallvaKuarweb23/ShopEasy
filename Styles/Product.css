@@ -43,16 +43,20 @@ body{
 }
 
 #filter_product>#filtersDiv>.title>h3 {
+   
+    margin: auto;
+    /* border: 1px solid red; */
     /* margin-top: 10px; */
 }
 
 #filter_product>#filtersDiv>.title div:nth-child(1) {
     width: 8%;
     padding-left: 10px;
+
 }
 
 #filter_product>#filtersDiv>.title div:nth-child(1) img {
-    width: 100%;
+    width: 20px;
     /* border: 1px solid green; */
     /* margin-right: 5px; */
 }
@@ -60,7 +64,7 @@ body{
 #filter_product>#filtersDiv .title button {
     width: 40%;
     border: none;
-    margin-left: 60px;
+    margin-left: 30px;
     padding: 7px;
     border-radius: 5px;
     font-size: 15px;
