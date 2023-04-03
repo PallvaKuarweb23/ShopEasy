@@ -304,24 +304,24 @@ function getfilteredCategory (category){
 
 }
 
-// let LT500 = document.getElementById("less-than-100");
-// let p501to1000 = document.getElementById("501-1000");
-// let p1001to2000 = document.getElementById("1001-2000");
-// let MT2000 = document.getElementById("more-than-2000");
+let LT500 = document.getElementById("less-than-100");
+let p501to1000 = document.getElementById("501-1000");
+let p1001to2000 = document.getElementById("1001-2000");
+let MT2000 = document.getElementById("more-than-2000");
 
-// LT500.addEventListener("change", function(e){
-//     getfilteredPrice(2000)
-// })
+LT500.addEventListener("change", function(e){
+    getfilteredPrice(2000)
+})
 
-// function getfilteredPrice (gt,lt){
-//     // let sProducts = 
-//     fetch(`${baseUrl}Men?price=gt${gt}`)
-//     .then ((res)=>{
-//         return res.json()
-//     })
-//     .then ((data)=>{
-//         console.log(data);
-//         DisplayData(data)
-//     })
+function getfilteredPrice (gt,lt){
+    // let sProducts = 
+    fetch(`${baseUrl}Men?price=gt${gt}`)
+    .then ((res)=>{
+        return res.json()
+    })
+    .then ((data)=>{
+        console.log(data);
+        DisplayData(data)
+    })
 
-// }
+}
