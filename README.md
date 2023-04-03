@@ -1,8 +1,8 @@
 # radioactive-lip-3578-
 
-![Logo](https://dancing-tarsier-2de857.netlify.app/logo-removebg.png)
+![Logo](./images%20header/Logo1.png)
 
-# [Stylista](https://dancing-tarsier-2de857.netlify.app/index.html)
+# [Stylista](https://playful-caramel-2a397b.netlify.app/html/index.html)
 
 It's E-commerce website Where you can buy stuff
 especially for clothing stuff,It's clone of [koov's](https://www.koovs.com/) and also it's completely responsive website.
