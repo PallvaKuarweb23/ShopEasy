@@ -14,7 +14,7 @@ function DisplayData(){
         
         Image1.src=element.Img
         Brand.innerText=element.brand;
-        About.innerText=element.about;
+        About.innerText=element.category;
         Price.innerText=element.price;
         Delete.innerText="Delete"
   

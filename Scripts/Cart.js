@@ -68,7 +68,7 @@ LSData.forEach((element) => {
     quantity.textContent=element.Quantity
     Image1.src=element.Img
     Brand.innerText=element.brand;
-    About.innerText=element.about;
+    About.innerText=element.category;
     Price.innerText=element.price;
     AddtoCart.innerText="Remove from cart"
     AddtoCart.setAttribute("id","btn")
