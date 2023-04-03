@@ -90,16 +90,6 @@
       "category": "TShirt"
     },
     {
-      "id": 10,
-      "brand": "ZARA",
-      "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/contraststitchdetailoversizedcrew-blue4_800x-jpg-2.webp?v=1668165536&width=493",
-      "about": "Women Oversized Cropped TShirt",
-      "price": 1190,
-      "gender": "Women",
-      "size": "L",
-      "category": "TShirt"
-    },
-    {
       "id": 11,
       "brand": "ZARA",
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/cherrygraphiccrew-white3_800x-jpg-2.webp?v=1668165560&width=493",
@@ -194,7 +184,7 @@
       "brand": "NIKE",
       "Img": "https://cdn.shopify.com/s/files/1/0677/1464/6315/products/koovs-15july222245-275.jpg?v=1668174726",
       "about": "Court Seamless Legging",
-      "price": 1592,
+      "price": "1000",
       "gender": "Women",
       "size": "XL",
       "category": "TShirt"
@@ -457,7 +447,7 @@
     {
       "Img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1676963608_9448213.jpg?format=webp&w=200&dpr=1.9",
       "brand": "KOOVS",
-      "price": "1999",
+      "price": "1991",
       "about": "ksbdfu",
       "size": "XL",
       "category": "T-shirts",
